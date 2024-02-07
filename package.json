@@ -1,0 +1,27 @@
+{
+  "name": "breakpoint-indicator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Visual indicator of media-query breakpoints.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:dev": "rollup -c --environment NODE_ENV:development",
+    "build": "rollup -c --environment NODE_ENV:production"
+  },
+  "keywords": [
+    "media-query",
+    "breakpoints",
+    "viewport",
+    "tailwind-breakpoints"
+  ],
+  "author": "Joy Poddar",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.9.6"
+  }
+}
