@@ -1,4 +1,5 @@
 import "../styles.css";
+import React from "react";
 
 export default BreakpointIndicator = () => {
   if (process.env.NODE_ENV === "production") return null;

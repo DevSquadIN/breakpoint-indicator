@@ -1,4 +1,7 @@
 import terser from "@rollup/plugin-terser";
+import resolve from "@rollup/plugin-node-resolve";
+import commonjs from "@rollup/plugin-commonjs";
+import babel from "@rollup/plugin-babel";
 
 const devMode = process.env.NODE_ENV === "development";
 console.log(`${devMode ? "development" : "production"} mode bundle`);
@@ -11,6 +14,12 @@ export default [
       format: "es",
       sourcemap: devMode ? "inline" : false,
       plugins: [
+        resolve(),
+        babel({
+          exclude: "node_modules/**",
+          presets: ["@babel/env", "@babel/preset-react"],
+        }),
+        commonjs(),
         terser({
           ecma: 2020,
           mangle: { toplevel: true },
