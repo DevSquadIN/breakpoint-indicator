@@ -16,17 +16,22 @@
   ],
   "author": "Joy Poddar",
   "license": "MIT",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.29.0",
     "@babel/preset-react": "^7.23.3",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
-    "rollup": "^4.9.6"
+    "postcss": "^8.5.6",
+    "rollup": "^4.9.6",
+    "rollup-plugin-postcss": "^4.0.2"
   }
 }
