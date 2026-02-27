@@ -13,30 +13,30 @@ const positionStyles: Record<Position, CSSProperties> = {
     bottom: '0.25rem',
     left: '0.25rem',
     top: 'auto',
-    right: 'auto'
+    right: 'auto',
   },
   'bottom-right': {
     bottom: '0.25rem',
     right: '0.25rem',
     top: 'auto',
-    left: 'auto'
+    left: 'auto',
   },
   'top-left': {
     top: '0.25rem',
     left: '0.25rem',
     bottom: 'auto',
-    right: 'auto'
+    right: 'auto',
   },
   'top-right': {
     top: '0.25rem',
     right: '0.25rem',
     bottom: 'auto',
-    left: 'auto'
-  }
+    left: 'auto',
+  },
 };
 
 const BreakpointIndicator = ({
-  position = 'bottom-left'
+  position = 'bottom-left',
 }: BreakpointIndicatorProps) => {
   if (process.env.NODE_ENV === 'production') return null;
 
@@ -44,7 +44,7 @@ const BreakpointIndicator = ({
     <div
       className={styles.indicator}
       style={positionStyles[position]}
-      aria-hidden='true'
+      aria-hidden="true"
     >
       <div className={styles.xs}>xs</div>
       <div className={styles.sm}>sm</div>
