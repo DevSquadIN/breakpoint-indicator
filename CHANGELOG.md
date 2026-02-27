@@ -1,15 +1,27 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## 2.0.0 (2026-02-27)
 
----
 
-## [Unreleased]
+### Fixed
 
----
+* build failure ([760af08](https://github.com/DevSquadIN/breakpoint-indicator/commit/760af089ebf2cc3180deba4a9856589df01ef0d7))
+
+
+### Added
+
+* add ts support ([2bd0e91](https://github.com/DevSquadIN/breakpoint-indicator/commit/2bd0e91ffc7d32f273c49864f360df3f43191c19))
+* breakpoint indicator and rollup config ([c2cb3b0](https://github.com/DevSquadIN/breakpoint-indicator/commit/c2cb3b0ed9c835829caf67930c26bb1b6e601bab))
+* migrate to TypeScript with dual CJS/ESM output and type declarations ([9aa6ae4](https://github.com/DevSquadIN/breakpoint-indicator/commit/9aa6ae40a859af074549debf0e82b790c72566f5))
+
+
+### Changed
+
+* add ESLint flat config and Prettier ([4223316](https://github.com/DevSquadIN/breakpoint-indicator/commit/42233169a0a7973923d0222195d76f74aead8972))
+* add standard-version, .versionrc.json, and CHANGELOG.md ([59cfb28](https://github.com/DevSquadIN/breakpoint-indicator/commit/59cfb2886529ec8fade83d4c3f3d55bca2a7d623))
+* tighten [package.json](http://_vscodecontentref_/0) with exports map, files, metadata, and engines ([227fca6](https://github.com/DevSquadIN/breakpoint-indicator/commit/227fca67cfa471c64504a88c23fc2ea4b3eacd9e))
 
 ## [1.0.0] - 2026-02-27
 

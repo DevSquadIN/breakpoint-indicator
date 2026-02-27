@@ -1,6 +1,6 @@
 {
   "name": "breakpoint-indicator",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "description": "Visual indicator of media-query breakpoints.",
   "main": "dist/index.cjs",
