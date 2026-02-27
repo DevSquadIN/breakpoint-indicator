@@ -36,6 +36,11 @@
     "format": "prettier --write src",
     "test": "vitest run",
     "test:watch": "vitest",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major",
+    "release:patch": "standard-version --release-as patch",
+    "release:dry": "standard-version --dry-run",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
@@ -80,6 +85,7 @@
     "rollup": "^4.9.6",
     "rollup-plugin-dts": "^6.3.0",
     "rollup-plugin-postcss": "^4.0.2",
+    "standard-version": "^9.5.0",
     "typescript": "^5.9.3",
     "vitest": "^4.0.18"
   }
