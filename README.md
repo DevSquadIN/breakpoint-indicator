@@ -13,9 +13,9 @@ A visual indicator component for React that displays the current media query bre
 ## Installation
 
 ```bash
-npm install breakpoint-indicator
+npm install -D breakpoint-indicator
 # or
-yarn add breakpoint-indicator
+yarn add -D breakpoint-indicator
 ```
 
 ## Usage
@@ -33,6 +33,20 @@ function App() {
     </div>
   );
 }
+```
+
+### TypeScript
+
+The package ships with built-in type declarations — no additional `@types/*` package is needed. It works out of the box in `.tsx` files:
+
+```tsx
+import { BreakpointIndicator } from 'breakpoint-indicator';
+
+const App: React.FC = () => (
+  <div>
+    <BreakpointIndicator />
+  </div>
+);
 ```
 
 The indicator will automatically appear in the bottom-left corner of your screen during development and will not render in production builds.

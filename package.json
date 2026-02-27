@@ -4,6 +4,8 @@
   "type": "module",
   "description": "Visual indicator of media-query breakpoints.",
   "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build:dev": "rollup -c --environment NODE_ENV:development",
     "build": "rollup -c --environment NODE_ENV:production"
